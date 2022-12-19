@@ -17,13 +17,71 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 - [License](#license)
 
 ## Task
-This week, you'll build a portfolio page, which you can add to as the course progresses. 
+## Instructions
 
-A portfolio of work can showcase your skills and talents to employers looking to fill a part-time or full-time position. An effective portfolio highlights your strongest work as well as the thought processes behind it. Students who have portfolios with deployed web applications (meaning they are live on the web) are typically very successful in their career search after the boot camp. This last point can’t be stressed enough: having several deployed projects is a minimum requirement to receive an initial interview at many companies. 
+1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
 
-With these points in mind, in this challenge you’ll set yourself up for future success by applying the core skills you've recently learned: flexbox, media queries, and CSS variables. You'll get to practice your new skills while creating something that you will use during your job search. It’s a win-win that you'll likely be grateful for in the future!
+2. Clone this repository to your computer.
 
-**Note:** If you don't have enough web applications to showcase at this point, use placeholder images and names. You can change them to real applications as you create them later in the course.
+3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
+   
+   - [ ] Create a folder structure.
+
+     - [ ] Create a `index.html`.
+
+     - [ ] Create a `css` folder.
+
+       - [ ] Inside create a `style.css` file.
+
+   - [ ] Create an `images` folder.
+
+       - [ ] Place all your images in this folder.
+
+4. Using Bootstrap, recreate your portfolio site with the following items:
+
+   The website should include the following bootstrap components:
+
+    - [ ] A Navigation bar
+    
+    - [ ] A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
+
+      - [ ] Include links that are applicable to your portfolio.
+  
+        - [ ] Links should navigate to the appropriate sections 
+
+    - [ ] A hero section
+
+        - [ ] A jumbotron featuring your picture, your name, and any other information you'd like to include.
+
+    - [ ] A work section
+
+      - [ ] A section displaying your work in grid. 
+
+        - [ ] If you need to use placeholder image use: https://placehold.co/ 
+
+      - [ ] Use bootstrap cards for each project.
+
+        - [ ] The description should give a brief overview of the work.
+
+      - [ ] Each project will eventually link to your class project work!
+
+    - [ ] A skills section
+
+      - [ ] List out the skills you expect to learn from the bootcamp.
+
+    - [ ] An about / contact section.
+
+      - [ ] An "About Me" section in the same row.
+    
+    - [ ] A footer section.
+
+      - [ ] All hyperlinks should have a hover effect.
+
+      - [ ] All buttons should display a box shadow upon hover.
+
+- [ ] 5. Your Bootstrap solution should minimize use of media queries.
+
+- [ ] 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ## Acceptance_Criteria
 
