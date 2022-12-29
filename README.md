@@ -18,6 +18,7 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 
 ## Task
 ## Instructions
+## Acceptance_Criteria
 
 1. Create a new GitHub repositories and name it `Bootstrap-Portfolio`.
 
@@ -82,8 +83,6 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 - [ ] 5. Your Bootstrap solution should minimize use of media queries.
 
 - [ ] 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
-
-## Acceptance_Criteria
 
 ### Technical Acceptance Criteria: 40%
 
