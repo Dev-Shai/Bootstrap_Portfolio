@@ -26,27 +26,27 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 
 3. Inside your `Bootstrap-Portfolio` repo, create the folder structure for the webpage.
    
-   - [ ] Create a folder structure.
+   - [x] Create a folder structure.
 
-     - [ ] Create a `index.html`.
+     - [x] Create a `index.html`.
 
-     - [ ] Create a `css` folder.
+     - [x] Create a `css` folder.
 
-       - [ ] Inside create a `style.css` file.
+       - [x] Inside create a `style.css` file.
 
-   - [ ] Create an `images` folder.
+   - [x] Create an `images` folder.
 
-       - [ ] Place all your images in this folder.
+       - [x] Place all your images in this folder.
 
 4. Using Bootstrap, recreate your portfolio site with the following items:
 
    The website should include the following bootstrap components:
 
-    - [ ] A Navigation bar
+    - [x] A Navigation bar
     
-    - [ ] A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
+    - [x] A navigation menu at the top. Feel free to use bootstrap's navbar or create your own.
 
-      - [ ] Include links that are applicable to your portfolio.
+      - [x] Include links that are applicable to your portfolio.
   
         - [ ] Links should navigate to the appropriate sections 
 

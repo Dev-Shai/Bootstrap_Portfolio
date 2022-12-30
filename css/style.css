@@ -11,7 +11,7 @@
     --gin: rgb(238, 238, 238);
     /* --heliotrope: #ca8300; */
     --heliotrope: rgb(206, 181, 39);
-    --blue: rgba(0, 99, 99, 0.6);
+    --blue: rgba(0, 99, 99, 1);
     --myblue: rgb(0, 99, 99);
     --bright-turquoise: rgb(164, 202, 113);
     --headerlighter:  rgb(49, 44, 75); 
@@ -32,7 +32,6 @@ font-family: 'Jura', sans-serif;
 .customNav {
 position: fixed;
 width: 100%;
-/* background: url("../images/transparency.png"); */
 background-image: linear-gradient(
     rgba(0, 99, 99, 0.6) 0%,
     rgb(0, 99, 99) 100%
@@ -46,20 +45,24 @@ margin-left: auto;
 margin-right: 0 !important;
 }
 
-/* .navbar-brand img {
-padding-right: 15px;
-width: 65px;
-} */
-
 .nav-item {
 margin: 0px 15px;
 }
 
 .navbar-icon {
-    width:40px;
-    height:40px;
-    margin: 2%;
+  width: 35px ;
+  height: 35px ;
+  margin: 0 3% 3% 3%;
 }
+
+.navbar-icon2 {
+  width: 25px ;
+  height: 25px ;
+  margin: 0 3% 3% 3%;
+  position: relative;
+  top: -2px;
+}
+
 
 /* Navigation dropdown menu */
 .dropdown-menu {
@@ -96,39 +99,30 @@ color: var(--gin) !important;
 .customNav a:hover {
     color: white;
     transition: all 0.5s ease-in-out !important;
-    /* text-shadow: inset 0px 0px 20px var(--white), 0 0 30px var(--white) !important; */
-    text-shadow: 0 0 5px rgb(255, 255, 255), 0 0 10px rgb(255, 255, 255), 0 0 15px rgb(255, 255, 255), 0 0 20px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255), 0 0 30px rgb(255, 255, 255), 0 0 35px rgb(255, 255, 255);
+    text-shadow: 0px 0px 8px var(--white), 0 0 15px var(--white);
 }
-
-
-.contactmebutton:hover {
-    box-shadow: inset 0px 0px 8px var(--white), 0 0 15px var(--white);
-    transition: all 0.5s ease-in-out;
-} */
-
-
-/* .customNav a:hover {
-    box-shadow: inset 0px 0px 8px var(--white), 0 0 15px var(--white);
-    transition: all 0.5s ease-in-out;
-    border: 0;
-    border-radius: 4px !important;
-}
-
-.contactmebutton:hover {
-    box-shadow: inset 0px 0px 8px var(--white), 0 0 15px var(--white);
-    transition: all 0.5s ease-in-out;
-} */
 
   /* Jumbotron  */
   .jumbotron {
-    background-image: url(../images/rockOn_dark.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: var(--blue);
     height: calc(100vh - 25px);
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0;
   }
+
+@media only screen and (min-width: 576px) {
+  .jumbotron {
+  background-color: var(--blue);
+} 
+}
+
+@media only screen and (max-width: 575px) {
+  .jumbotron {
+  background-color: var(--blue);
+} 
+}
   
   /* Jumbotron copy */
   .jumboCopy {
@@ -137,14 +131,37 @@ color: var(--gin) !important;
     max-width: 700px;
     color: white;
     text-align: center;
+    margin: auto;
   }
+
+.display-4 {
+  color:var(--heliotrope)
+}
+
+.hero-image {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 5px;
+  width: 300px;
+  margin: 10px;
+}
+
+.hero-image:hover {
+box-shadow: inset 0px 0px 8px var(--white), 0 0 15px var(--white);
+transition: all 0.5s ease-in-out;
+}
   
   /* Cards */
   .content {
     padding: 50px;
+    text-align: center;
+    font-size: 1.25rem;
+    color: var(--blue);
   }
+
   .sectionHeading {
     text-align: center;
+    color: var(--heliotrope);
   }
   .showsNear  {
     padding: 0px 30px 30px 30px;
@@ -209,7 +226,6 @@ margin-top: 20px;
 .card {
 margin: 0 auto;
 }
-
 
 /* links and buttons */
 
