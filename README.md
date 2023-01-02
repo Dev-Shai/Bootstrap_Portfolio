@@ -17,6 +17,10 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 - [License](#license)
 
 ## Task
+
+### Preview of my Completed Task
+![preview of the website](https://github.com/Dev-Shai/W3_Bootstrap_Portfolio/blob/images/w3_website_preview.png?raw=true)
+
 ## Instructions
 ## Acceptance_Criteria
 
@@ -70,7 +74,7 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 
       - [x] List out the skills you expect to learn from the bootcamp.
 
-    - [ ] An about / contact section.
+    - [x] An about / contact section.
 
       - [x] An "About Me" section in the same row.
     
@@ -116,20 +120,20 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 
 ## Personal todos:
 
-- [ ] Add alt text to image
+- [x] Add alt text to image
 
-- [ ] Reduce use of media queries where possible
+- [x] Reduce use of media queries where possible
 
-- [ ] Remove Lorem text and add actual text
+- [x] Remove Lorem text and add actual text
 
-- [ ] Clean up class labels and check they are relevant and make sense
+- [x] Clean up class labels and check they are relevant and make sense
 
 ## Review
 You are required to submit BOTH of the following for review:
 
-- [ ] The URL of the deployed application.
+- [x] The URL of the deployed application.
 
-- [ ] The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
+- [x] The URL of the GitHub repository that contains your code. Give the repository a unique name and include a README file that describes the project.
 
 ## Helpful_Resources
 
