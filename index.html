@@ -17,7 +17,7 @@
 
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
-      <a class="navbar-brand" href="#"><img src="./images/profile_icon.png" class="navbar-icon">Dev-Shai</a>
+      <a class="navbar-brand" href="#"><img src="./images/profile_icon.png" class="navbar-icon" alt="a small profile icon">Dev-Shai</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -25,27 +25,27 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#hithere">Hi There <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#aboutme">About Me<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#aboutme">About Me</a>
+            <a class="nav-link" href="#myskills">My Skills</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Projects</a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <a class="dropdown-item" href="#">Website Project</a>
+              <a class="dropdown-item" href="#websiteproject">Website Project</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Second Website Project</a>
+              <a class="dropdown-item" href="#secondwebsiteproject">Second Website Project</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">Game Project</a>
+              <a class="dropdown-item" href="#gameproject">Game Project</a>
               <div class="dropdown-divider"></div>
-              <a class="dropdown-item" href="#">App Project</a>
+              <a class="dropdown-item" href="#appproject">App Project</a>
             </div>
           </li>
           
-            <a class="navbar-brand" href="https://www.linkedin.com/"><img src="./images/linkedin_icon.png" class="navbar-icon2"></a>
+            <a class="navbar-brand" href="https://www.linkedin.com/"><img src="./images/linkedin_icon.png" class="navbar-icon2" alt="a linkedin icon acting as a hyperlink to linkedin"></a>
 
-            <a class="navbar-brand" href="https://www.github.com/"><img src="./images/github_icon.png" class="navbar-icon2"></a>
+            <a class="navbar-brand" href="https://www.github.com/"><img src="./images/github_icon.png" class="navbar-icon2" alt="a github icon acting as a hyperlink to github"></a>
           
           <li class="nav-item">
             <a class="btn btn-primary btn-lg navCTA contactmebutton" href="mailto: abc@example.com" role="button">Contact Me</a>
@@ -56,7 +56,7 @@
     <!-- End navigation bar -->
      
     <!-- Jumbotron -->
-    <a id="hithere"></a>
+    <a id="aboutme"></a>
     <div class="jumbotron jumboBackground">
       <div class="jumboCopy">
         <h1 class="display-4">Hi There, <br>I'm Shahid // Dev-Shai</h1>
@@ -66,31 +66,50 @@
         <div>
           <img style="padding: 1rem;" class="hero-image" src="./images/hero_image.jpg" alt="image of a person">
         </div>
-
         <a class="btn btn-primary btn-lg" href="mailto: abc@example.com" role="button">Contact Me</a>
       </div>
+      
     </div>
     <!-- End jumbotron -->
 
     <!-- Cards -->
-    <a id="aboutme"></a>
+
+    <a id="myskills"></a>
     <br>
     <div class="jumbotron2">
       <div class="jumbocopy2">
   
       <div class="container-fluid content">
-      <h2 class="sectionHeading">About me</h2>
+      <h2 class="sectionHeading">My Skills</h2>
       <p class="sectioncontent">I have skills in front-end development as well as experience and notable training in the field Psychology. My interest in understanding others informs my commitment to learning more around UX, web development, and considering how to create a product that best meets (and hopefully exceeds) users' hopes.</p>  
-      <div class="row showsNear">
+      <div>
+        <img style="padding: 1rem;" class="skills-image" src="./images/aboutme_image2.png" alt="image a lightbulb within the head of a person">
+      </div>
+      <!-- <div class="row showsNear"> -->
+</div>
+</div>
+</div>
+
+<a id="myprojects"></a>
+<br>
+<div class="jumbotron3">
+  <div class="jumbocopy3">
+
+  <div class="container-fluid content">
+  <h2 class="sectionHeading">My Projects</h2>
+  <p class="sectioncontent">I have skills in front-end development as well as experience and notable training in the field Psychology. My interest in understanding others informs my commitment to learning more around UX, web development, and considering how to create a product that best meets (and hopefully exceeds) users' hopes. <br><br> During my CPD and BootCamp I further expect to learn skills in developing JS driven apps and interfaces, including tools that can improve the daily lives of users.
+  </p>  
+  <div class="row mycardselection">
 
         <!-- Card 1 -->
         <div class="cardContainer col-lg-12 col-md-12 col-sm-12">
+          <a id="websiteproject"></a>
           <div class="card">
-            <img src="./images/website-placeholder.jpg" class="card-img-top" alt="...">
+            <img src="./images/website-placeholder.jpg" class="card-img-top" alt="an abstract drawing of computer with a website being constructed">
             <div class="card-body">
-              <h5 class="card-title">Melbourne, Australia</h5>
-              <p class="card-text">Come see Slipknot unlease their new album "We Are Not Your Kind"</p>
-              <a href="#" class="btn btn-primary">Go somewhere</a>
+              <h5 class="card-title">Website Project</h5>
+              <p class="card-text">This website is a portfolio using HTML and CSS</p>
+              <a href="https://www.github.com/" class="btn btn-primary">Project Link</a>
             </div>
           </div>
         </div>
@@ -98,12 +117,13 @@
 
         <!-- Card 2 -->
         <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+          <a id="secondwebsiteproject"></a>
           <div class="card">
-            <img src="./images/2ndwebsite-placeholder.png" class="card-img-top" alt="...">
+            <img src="./images/2ndwebsite-placeholder.png" class="card-img-top card-img-sec-top" alt="a drawing of a computer with a conceptual website on the screen">
             <div class="card-body">
-              <h5 class="card-title">Chicago, Illinois</h5>
-              <p class="card-text">Metallica finally returns to the big stage in Chicago Illinois</p>
-              <a href="#" class="btn btn-primary">Buy Tickets</a>
+              <h5 class="card-title">Bootstrap Website Project</h5>
+              <p class="card-text">This website was mainly driven using bootstrap techniques in HTML and CSS</p>
+              <a href="https://www.github.com/" class="btn btn-primary">Project Link</a>
             </div>
           </div>
         </div>
@@ -111,59 +131,29 @@
 
         <!-- Card 3 -->
         <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+          <a id="gameproject"></a>
           <div class="card">
-            <img src="./images/game-placeholder.png" class="card-img-top" alt="...">
+            <img src="./images/game-placeholder.png" class="card-img-top card-img-sec-top" alt="an image of a 3d cell shaded castle in a cartoon style to represent a game">
             <div class="card-body">
-              <h5 class="card-title">Long Beach, California</h5>
-              <p class="card-text">The Red Hot Chili Peppers take the stage at the Honda Center</p>
-              <a href="#" class="btn btn-primary">Buy Tickets</a>
+              <h5 class="card-title">Game Project</h5>
+              <p class="card-text">This game is currently under development. It will be focusing on worker placement</p>
+              <a href="https://www.github.com/" class="btn btn-primary">Project Link</a>
             </div>
           </div>
         </div>
 
         <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
+          <a id="appproject"></a>
           <div class="card">
-            <img src="./images/game-placeholder.png" class="card-img-top" alt="...">
+            <img src="./images/app-placeholder.png" class="card-img-top card-img-sec-top" alt="...">
             <div class="card-body">
-              <h5 class="card-title">Long Beach, California</h5>
-              <p class="card-text">The Red Hot Chili Peppers take the stage at the Honda Center</p>
-              <a href="#" class="btn btn-primary">Buy Tickets</a>
+              <h5 class="card-title">App project</h5>
+              <p class="card-text">This app is currently under development. It will be focused on recording data and reviews of board games</p>
+              <a href="https://www.github.com/" class="btn btn-primary" alt="a tablet device with people constructing an app within it">Project Link</a>
             </div>
           </div>
         </div>
 
-        <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="./images/game-placeholder.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Long Beach, California</h5>
-              <p class="card-text">The Red Hot Chili Peppers take the stage at the Honda Center</p>
-              <a href="#" class="btn btn-primary">Buy Tickets</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="./images/game-placeholder.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Long Beach, California</h5>
-              <p class="card-text">The Red Hot Chili Peppers take the stage at the Honda Center</p>
-              <a href="#" class="btn btn-primary">Buy Tickets</a>
-            </div>
-          </div>
-        </div>
-
-        <div class="cardContainer col-lg-4 col-md-6 col-sm-12">
-          <div class="card">
-            <img src="./images/game-placeholder.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Long Beach, California</h5>
-              <p class="card-text">The Red Hot Chili Peppers take the stage at the Honda Center</p>
-              <a href="#" class="btn btn-primary">Buy Tickets</a>
-            </div>
-          </div>
-        </div>
         <!-- End cards -->
         </div>
       </div>
@@ -171,86 +161,55 @@
   </div>   
 </div>
             <!-- End card 3 -->
-          <!-- </div>
-        </div>
-      </div>
-    </div> -->
+
     <!-- End cards -->
 
-    <!-- Content -->
-    <div class="container-fluid content">
-      <h2 class="sectionHeading">Why we're better</h2>
 
-      <!-- Row 1 -->
-      <div class="row valueProp">
-        <div class="sideAccent">
-        </div>
-        <div class="imageContainer col-3">
-          <img src="images/assistance.png">
-        </div>
-        <div class="text col-8">
-          <h3>We are always here to help!</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Contact Us
-          </a>
-        </div>
-      </div>
-      <!-- End row 1 -->
-
-      <!-- Row 2 -->
-      <div class="row valueProp">
-        <div class="sideAccent">
-        </div>
-        <div class="imageContainer col-3">
-          <img src="images/refund.png">
-        </div>
-        <div class="text col-8">
-          <h3>The best prices!</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">Learn More</a>
-        </div>
-      </div>
-      <!-- End row 2 -->
-
-      <!-- Row 3 -->
-      <div class="row valueProp">
-        <div class="sideAccent">
-        </div>
-        <div class="imageContainer col-3">
-          <img src="images/mail-box.png">
-        </div>
-        <div class="text col-8">
-          <h3>The best shows!</h3>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod Lorem ipsum dolor sit amet.
-          </p>
-          <a href="#" class="btn btn-primary">More shows</a>
-        </div>
-      </div>
-      <!-- End row 3 -->
-
-    </div>
     <!-- End content -->
 
-    <!-- Footer -->
-    <footer class="emailContain">
-      <form>
-        <h3 class="sectionHeading">Join Our Mailing List</h3>
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
-            placeholder="Enter email">
+  <!-- Contact-->
+  <section class="contact-section bg-black">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100 bluecardcontact">
+            <div class="card-body text-center">
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4" />
+              <div class="contacttext">221b Baker Street, London</div>
+            </div>
+          </div>
         </div>
-        <button type="submit" class="btn btn-primary">Sign Up</button>
-      </form>
-    </footer>
-    <!-- End footer -->
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100 bluecardcontact">
+            <div class="card-body text-center">
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4" />
+              <div class="contacttext"><a href="#!">abc@myemail.com</a></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100 bluecardcontact">
+            <div class="card-body text-center">
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4" />
+              <div class="contacttext">07912345678</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- Optional JavaScript -->
+  <footer class="copyrightinfo">
+    <div class="container">
+      <p>&copy; Shahid Khan 2022. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+
+      <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -261,6 +220,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"></script>
-  </body>
 
+  </body>
 </html>

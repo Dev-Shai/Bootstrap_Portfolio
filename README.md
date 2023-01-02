@@ -48,72 +48,81 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 
       - [x] Include links that are applicable to your portfolio.
   
-        - [ ] Links should navigate to the appropriate sections 
+        - [x] Links should navigate to the appropriate sections 
 
-    - [ ] A hero section
+    - [x] A hero section
 
-        - [ ] A jumbotron featuring your picture, your name, and any other information you'd like to include.
+        - [x] A jumbotron featuring your picture, your name, and any other information you'd like to include.
 
-    - [ ] A work section
+    - [x] A work section
 
-      - [ ] A section displaying your work in grid. 
+      - [x] A section displaying your work in grid. 
 
-        - [ ] If you need to use placeholder image use: https://placehold.co/ 
+        - [x] If you need to use placeholder image use: https://placehold.co/ 
 
-      - [ ] Use bootstrap cards for each project.
+      - [x] Use bootstrap cards for each project.
 
-        - [ ] The description should give a brief overview of the work.
+        - [x] The description should give a brief overview of the work.
 
-      - [ ] Each project will eventually link to your class project work!
+      - [x] Each project will eventually link to your class project work!
 
-    - [ ] A skills section
+    - [x] A skills section
 
-      - [ ] List out the skills you expect to learn from the bootcamp.
+      - [x] List out the skills you expect to learn from the bootcamp.
 
     - [ ] An about / contact section.
 
-      - [ ] An "About Me" section in the same row.
+      - [x] An "About Me" section in the same row.
     
-    - [ ] A footer section.
+    - [x] A footer section.
 
-      - [ ] All hyperlinks should have a hover effect.
+      - [x] All hyperlinks should have a hover effect.
 
-      - [ ] All buttons should display a box shadow upon hover.
+      - [x] All buttons should display a box shadow upon hover.
 
-- [ ] 5. Your Bootstrap solution should minimize use of media queries.
+- [x] 5. Your Bootstrap solution should minimize use of media queries.
 
-- [ ] 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
+- [x] 6. Deploy your new Bootstrap-powered portfolio to GitHub Pages.
 
 ### Technical Acceptance Criteria: 40%
 
-- [ ] Satisfies all of the above acceptance criteria.
+- [x] Satisfies all of the above acceptance criteria.
 
 ### Deployment: 32%
 
-- [ ] Application deployed at live URL.
+- [x] Application deployed at live URL.
 
-- [ ] Application loads with no errors.
+- [x] Application loads with no errors.
 
-- [ ] Application GitHub URL submitted.
+- [x] Application GitHub URL submitted.
 
-- [ ] GitHub repository contains application code.
+- [x] GitHub repository contains application code.
 
 ### Application Quality: 15%
 
-- [ ] Application resembles the functionality of their previous portfolio.
+- [x] Application resembles the functionality of their previous portfolio.
 
 ### Repository Quality: 12%
 
-- [ ] Repository has a unique name.
+- [x] Repository has a unique name.
 
-- [ ] Repository follows best practices for file structure and naming conventions.
+- [x] Repository follows best practices for file structure and naming conventions.
 
-- [ ] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
+- [x] Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
 
-- [ ] Repository contains multiple descriptive commit messages.
+- [x] Repository contains multiple descriptive commit messages.
 
-- [ ] Repository contains quality readme with description, screenshot, link to deployed application.
+- [x] Repository contains quality readme with description, screenshot, link to deployed application.
 
+## Personal todos:
+
+- [ ] Add alt text to image
+
+- [ ] Reduce use of media queries where possible
+
+- [ ] Remove Lorem text and add actual text
+
+- [ ] Clean up class labels and check they are relevant and make sense
 
 ## Review
 You are required to submit BOTH of the following for review:
