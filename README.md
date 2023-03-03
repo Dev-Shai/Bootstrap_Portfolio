@@ -20,7 +20,7 @@ This portfolio uses  HTML, CSS (inc. flexboxes, grids, id and class formatting),
 
 ### Preview of and Link to my Completed Task
 ![preview of the website](./images/w3_website_preview.png)
-Link to live URL: https://dev-shai.github.io/W3_Bootstrap_Portfolio/ 
+Link to live URL: https://dev-shai.github.io/Bootstrap_Portfolio/ 
 
 ## Instructions
 ## Acceptance_Criteria
